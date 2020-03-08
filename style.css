@@ -1,0 +1,109 @@
+body{
+background: rgb(246, 249, 252);
+color: rgb(148,33,33);
+font-family: helvetica
+
+}
+
+p {
+font-size: 14px;
+font-family: Lemonada;
+font-weight: lighter;
+}
+
+h1 {
+color: rgb(25,25,25);
+font-family:
+}
+
+a {
+color: rgb(148,33,33);
+text-decoration: none;
+}
+a:hover{
+color: rgb(25,25,25);
+font-weight: bold;
+}
+
+h3,h2 {
+font-family: Sriracha;
+color: rgb(25,25,25);
+font-weight: bold;
+}
+
+h2 {
+font-family: helvetica
+}
+
+
+.container {
+width: 800px;
+margin: 40px auto;
+}
+
+.card-design {
+background: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.img-circle {
+border-radius: 50%;
+width: 450px;
+height: 450px;
+}
+
+.btn-bleu {
+background-color: rgb(33,33,148);
+color: white;
+padding: 10px 15px;
+border-radius: 4px;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+display: inline;
+padding: 10px;
+text-align: center;
+}
+
+ul {
+margin-top: 30px;
+}
+
+@media (max-width: 960px) {
+.container {
+width: 700px;
+}
+}
+
+@media (max-width: 720px) {
+.container {
+width: 500px;
+}
+}
+
+@media (max-width: 540px) {
+.container {
+width: 300px;
+}
+}
+
+.list-design {
+list-style: none;
+padding-left: 0px;
+margin-top: 35px;
+}
+.list-inline i {
+font-size: 40px;
+
+}
+
+.gauche {
+text-align: left;
+
+}
